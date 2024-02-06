@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container-header">
+        <header>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">HOME</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">ABOUT</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">WORKS</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <section id="home" class="home">
+        <h2 class="title-name" >Valentina Alegre</h2>
+    </section>
+
+    <section id="about-me" class="about-me">
+        <div class="container-section">
+            <h2>About me</h2>  <img class="photo" src="img/yo.jpg" alt="">
+            <p><span>Hola, mi nombre es Valentina Alegre.</span>
+                Soy una apasionada desarrolladora fullstack jr de 25 años. Mi pasión por la tecnología y la creatividad me ha llevado a explorar el mundo del desarrollo web, desde el diseño hasta la implementación. Cuento con una sólida formación en programación y diseño, ya que ademas de haber estudiado programacion, también soy diseñadora de modas. Me destaco en la creación de experiencias digitales intuitivas y atractivas.
+                Tengo una gran habilidad para trabajar en equipo y comunicarme eficazmente lo cual me permite colaborar con otros desarrolladores y clientes para convertir ideas en realidad. Además cuento con una gran curiosidad y  deseo de aprendizaje constante que hacen que siempre este buscando nuevos desafíos y oportunidades para crecer tanto profesional como personalmente.                 
+                 </p>
+            <div class="row">
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            04/02/1999
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            092993566
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            valuualegre15@icloud.com
+                        </li>
+                        
+                    </ul>
+                </div>
+
+       
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a id="cv-dowland" href="img/cv.jpg">Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span></a>
+                
+            </button>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="container-section">
+            <h2>Skills</h2>
+            <div class="row">
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Html CSS JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>98%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Git</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MySQL MongoDB</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>APIs</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Node js</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>88%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>92%</span>
+                            </div>
+                        </div>
+                    </div>
+                 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Bachillerato completo</h4>
+                        <span class="casa">Colegio y Liceo El Clemente</span>
+                        <span class="fecha">2012 - 2018</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Ingles Avanzado</h4>
+                        <span class="casa">Anglo</span>
+                        <span class="fecha"></span>
+                        <p>Estudio de ingles durante 14 años consecutivos. Nivel de ingles First Certificate</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Diseño de Modas</h4>
+                        <span class="casa">Peter Hamers</span>
+                        <span class="fecha">2018 - 2021</span>
+                        <p>Estudio de diseño de modas durante 3 años</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item izq">
+                        <h4>Desarrollo web Frontend</h4>
+                        <span class="casa">Freelancer</span>
+                        <span class="fecha">2018 - 2021</span>
+                        <p class="separator">Comence a estudiar  programacion mediante mi propia cuenta</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                        <h4>Desarrollo web Frontend</h4>
+                        <span class="casa">Hack academy</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p class="separator">Curso de Frontend</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                        <h4>Desarrollo web FullStack</h4>
+                        <span class="casa">Hack Academy</span>
+                        <span class="fecha">2022 - 2024</span>
+                        <p>Bootcamp terminado de Desarrollo Fullstack</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    
+                
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Creacion de diversas paginas web como Freelancer</h4>
+                        <span class="casa"></span>
+                        <span class="fecha">2022 - actualidad</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Emprendimiento de diseño</h4>
+                        <span class="casa">Autonomo</span>
+                        <span class="fecha">2019 - 2021</span>
+                        <p>Creacion y venta de distintos tipos de indumentaria</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Moza en Catering de eventos</h4>
+                        <span class="casa">M & A</span>
+                        <span class="fecha">2020 - 2022</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+          
+                <!-- Mapa -->
+                <div class="col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.9573541148316!2d-56.19844882481328!3d-34.85729887093364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a02ab1c5f881af%3A0xd863307b364e49c2!2sAv.%20Luis%20Alberto%20de%20Herrera%204492%2C%2011700%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses!2suy!4v1681961264427!5m2!1ses!2suy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Luis Alb de Herrera 4492
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                092993566
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                valuualegre15@icloud.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="linkedin.com/in/valentina-alegre-680224273"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/valuualegre15"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
